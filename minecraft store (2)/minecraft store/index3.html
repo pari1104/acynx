@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ro'yxatdan O'tish</title>
+  <link rel="stylesheet" href="style3.css">
+  <link rel="shortcut icon" href="logo/0ba4a902352cc40770ed700aca4d7e07.jpg" type="image/x-icon">
+</head>
+<body>
+
+  <div class="container">
+    <form id="registerForm">
+      <h1>Ro'yxatdan O'tish</h1>
+      <div class="form-group">
+        <label for="username">Ismingiz</label>
+        <input type="text" id="username" name="username" placeholder="Ismingizni kiriting" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Elektron Pochta</label>
+        <input type="email" id="email" name="email" placeholder="Email manzilingizni kiriting" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Parol</label>
+        <input type="password" id="password" name="password" placeholder="Yangi parolni kiriting" required>
+      </div>
+      <div class="form-group">
+        <label for="confirmPassword">Parolni tasdiqlang</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Parolni tasdiqlang" required>
+      </div>
+      <button type="submit" class="submit-btn">Ro'yxatdan O'tish</button>
+    
+      <p id="error-message" class="error-message"></p>
+      <div>
+        <a href="index.html" class="orqa" >Orqaga</a>
+    </div>
+    </form>
+
+    <!-- Yangi qism: foydalanuvchi ma'lumotlarini ko'rsatish uchun -->
+    <div id="result-message"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
